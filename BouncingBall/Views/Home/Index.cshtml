@@ -1,0 +1,20 @@
+﻿@using BouncingBall.Models.Helpers
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<Style>
+    #test {
+        display:block;
+        Border: 3px solid black;
+        margin: auto;
+        Border-radius: 3px;
+    }
+
+    body {
+        background: radial-gradient(teal 40%, purple);
+    }
+</Style>
+
+@Html.CtrlBouncingBall("test",200,150)
